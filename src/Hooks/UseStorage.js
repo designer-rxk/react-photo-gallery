@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+import {useEffect, useState} from "react";
 import {projectStorage, projectFirestore, timestamp} from "../Firebase/config";
 import '../App.css';
 

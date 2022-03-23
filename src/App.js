@@ -7,12 +7,11 @@ import React, {useState} from "react";
 
 function App() {
     const [selectedImg, setSelectedImg] = useState(null);
-
   return (
     <div className="App">
       <Title/>
       <UploadForm />
-      <ImageGrid setSelectedImg={setSelectedImg} />
+        <ImageGrid setSelectedImg={setSelectedImg}/>
       { selectedImg && (
         <Modal selectedImg={selectedImg} setSelectedImg={setSelectedImg} />
       )}
