@@ -2,4 +2,5 @@
 
 To run:
 * Install dependencies
+* Run the application
 * Check localhost:3000
